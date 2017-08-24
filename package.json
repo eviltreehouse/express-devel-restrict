@@ -1,0 +1,22 @@
+{
+  "name": "express-devel-restrict",
+  "version": "1.0.0",
+  "description": "Express middleware that limits which remote hosts can access your app when running in development mode",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=development mocha"
+  },
+  "repository": {
+    "type": "git+ssh",
+    "url": "eviltreehouse.com:/opt/code/express-devel-restrict.git"
+  },
+  "author": "Corey Sharrah <corey@eviltreehouse.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "simple-assert": "^1.0.0"
+  },
+  "dependencies": {
+    "debug": "^2.6.3"
+  }
+}
