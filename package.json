@@ -1,6 +1,6 @@
 {
   "name": "express-devel-restrict",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Express middleware that limits which remote hosts can access your app when running in development mode",
   "main": "index.js",
   "scripts": {
